@@ -35,6 +35,7 @@ export const TourGuideZoneByPosition = ({
   right,
   bottom,
   containerStyle,
+  name,
 }: TourGuideZoneByPositionProps) => {
   if (!isTourGuide) {
     return null
@@ -63,6 +64,7 @@ export const TourGuideZoneByPosition = ({
           title,
           subtitle,
           text,
+          name,
         }}
         style={{
           ...zoneStyle,
